@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="assets/css/cart page.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!--Header Section-->
+
+    <header>
+        <div class="header-1">
+            <a href="#" class="logo"><img src="assets/images/CG Logo2.png"></a>
+            
+        </div>
+        <div class="header-2">
+            <div id="menu" class="fas fa-bars">
+               <!-- <img src="assets/images/menu.png">-->
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="#arrival">New Arrivals</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#deal">Sale</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="login.html" class="fas fa-heart"></a>
+                <a href="cart.html" class="fas fa-shopping-cart"></a>
+                <a href="login.html" class="far fa-user"></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="cart">
+
+            <div class="top">
+                <h1 class="heading"><span>Shopping Cart</span></h1>
+                <h2 id="itemA">4 Items</h2>
+            </div>
+            <table cellspacing="0" class="table-head">
+                <tr>
+                    <th width="150" class="head-img">Image</th>
+                    <th width="360">Name</th>
+                    <th width="150">Price</th>
+                    <th width="70">Delete</th>
+                </tr>
+            </table>
+            <table id="root" cellspacing="0"></table>
+            <hr>
+        </div>
+        <div class="summary">
+            <div class="top">
+                <h2>Order Summary</h2>
+            </div>
+            <div class="detail">
+                <h2 id="itemB">4 Items</h2>
+                <h2 id="totalA">Ksh 5000.00</h2>
+            </div>
+            <div style="margin-top: 30px; padding: 0 30px;">
+                <h2>Shipping</h2>
+                <input type="text" placeholder="Standard Delivery">
+                <h2>Promo Code</h2>
+                <input type="text" placeholder="Enter your code" id="promoCode">
+                <button class="first btn" id="promo" onclick="promo()">Apply</button>
+            </div>
+            <hr>
+            <div class="top">
+                <h2>Total</h2>
+                <h2 id="totalB">Ksh 10,000.00</h2>
+            </div>
+            <div style="padding: 0 10px; margin-bottom: 20px;">
+                <button class="checkout btn">Check Out</button>
+            
+            </div>
+        </div>
+    </div>
+
+
+    <!--Newsletter Section-->
+
+<section class="newsletter">
+
+    <h1>Newsletter</h1>
+    <p>Get in touch for latest Discounts and products</p>
+    <form action="">
+        <input type="email" name="" id="" placeholder="Enter your email">
+        <input type="submit" class="btn">
+    </form>
+
+</section>
+
+    <!--Footer Section-->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+
+            <a href="#" class="logo"><img src="assets/images/CG Logo2.png"></a>   
+            <p>Thank you for shopping with us.<br> Please come back again.  </p>
+        </div>
+        <div class="box">
+
+            <h3>Links</h3>
+            <a href="#home">Home</a>
+            <a href="#arrival">New arrivals</a>
+            <a href="#featured">Featured</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#deal">Sale</a>
+        </div>
+        <div class="box">
+
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-home"></i>
+                Nakuru, Nairobi,
+                Eldoret - 20100
+            </p>
+            <p><i class="fas fa-phone"></i>
+                +254 705 114 344
+            </p>
+            <p><i class="fas fa-globe"></i>
+                support@certifiedgadgets.co.ke
+            </p>
+        </div>
+    </div>
+
+    <h1 class="credit">Design and Developed by <span><a href="https://www.uniquebrandcreatives.com" target="_blank">U.B.C</a></span> &copy; 2022 All Rights Reserved</h1>
+</section>
+
+
+
+
+    <script src="assets/js/cart page.js"></script>
+</body>
+</html>
